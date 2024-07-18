@@ -7,7 +7,7 @@ dementia patients and their families easier and more convenient. Our project con
 
 ## Features
 
-- Our app consists of three interfaces, namely for the patient, the doctor and the caretaker.
+Our app consists of three interfaces, namely for the patient, the doctor and the caretaker.
 
 | Interface | Features |
 | -------- | ------- |
@@ -18,3 +18,4 @@ dementia patients and their families easier and more convenient. Our project con
 
 # Archetecture
 
+![Image title](/docs/assets/archetecture.jpeg)
