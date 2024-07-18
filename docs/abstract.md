@@ -39,6 +39,6 @@ independence.
     - S3 
     - RDS
     - EC2 and more
-- Raspberry Pie 
+- Raspberry Pi
 - Blockchain
 - Springboot
