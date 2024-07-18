@@ -18,4 +18,4 @@ Our app consists of three interfaces, namely for the patient, the doctor and the
 
 # Archetecture
 
-![Image title](/docs/assets/archetecture.jpeg)
+![Image title](/assets/archetecture.jpeg)
