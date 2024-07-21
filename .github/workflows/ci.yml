@@ -27,11 +27,10 @@ jobs:
             mkdocs-material-
       - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
-      - run: cp CNAME site/CNAME
 
       - name: Set custom domain (if necessary)
         run: |
-          echo "project-memory.xyz" > ./CNAME 
-          git add ./CNAME
+          echo "your-custom-domain.com" > ./docs/CNAME  # Replace with your actual custom domain
+          git add ./docs/CNAME
           git commit -m "Set custom domain"
           git push origin HEAD:master  # Or the branch you are deploying to
