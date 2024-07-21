@@ -52,4 +52,4 @@ jobs:
           cd ./docs  # Change to the directory where CNAME is located
           git add CNAME
           git commit -m "Set custom domain"
-          git push origin HEAD:gh-pages  # Push to the gh-pages branch
+          git push origin gh-pages  # Push to the gh-pages branch
