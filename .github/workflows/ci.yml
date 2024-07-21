@@ -47,5 +47,5 @@ jobs:
           cd ./docs
           git add CNAME
           git commit -m "Set custom domain"
-          git pull origin gh-pages  # Pull changes from remote gh-pages branch
+          git pull --rebase origin gh-pages  # Rebase to reconcile divergent branches
           git push origin HEAD:gh-pages  # Push to the gh-pages branch
