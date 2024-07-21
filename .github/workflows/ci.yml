@@ -31,7 +31,7 @@ jobs:
 
       - name: Set custom domain (if necessary)
         run: |
-          echo "project-memory.xyz" > ./docs/CNAME 
-          git add ./docs/CNAME
+          echo "project-memory.xyz" > ./CNAME 
+          git add ./CNAME
           git commit -m "Set custom domain"
           git push origin HEAD:master  # Or the branch you are deploying to
