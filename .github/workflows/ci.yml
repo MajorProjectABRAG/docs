@@ -52,4 +52,4 @@ jobs:
           cd ./site
           git add CNAME
           git commit -m "Set custom domain"
-          git push origin HEAD:master  # Or the branch you are deploying to
+          git push origin HEAD:gh-pages
