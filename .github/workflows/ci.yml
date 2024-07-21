@@ -44,12 +44,6 @@ jobs:
         run: mkdocs build
       
       - name: Deploy MkDocs site to GitHub Pages
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy 
       
-      - name: Set custom domain (CNAME)
-        run: |
-          echo "project-memory.xyz" > ./docs/CNAME  # Ensure correct directory
-          cd ./docs  # Change to the directory where CNAME is located
-          git add CNAME
-          git commit -m "Set custom domain"
-          git push origin gh-pages  # Push to the gh-pages branch
+
