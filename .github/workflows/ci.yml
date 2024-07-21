@@ -43,8 +43,8 @@ jobs:
       
       - name: Set custom domain (CNAME)
         run: |
-          echo "project-memory.xyz" > ./docs/CNAME
-          cd ./docs
+          echo "project-memory.xyz" > ./site/CNAME
+          cd ./site
           git add CNAME
           git commit -m "Set custom domain"
           git pull --rebase origin gh-pages  # Rebase to reconcile divergent branches
